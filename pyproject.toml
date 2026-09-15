@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aster-desire"
+version = "0.1.0"
+description = "A privacy-first, model-agnostic desire, Pulse, reverie, growth-ring, and heartbeat engine for AI agents."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "SuTangVerse contributors"}]
+keywords = ["agents", "heartbeat", "desire", "pulse", "autonomy"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.scripts]
+desire-pulse = "desire_pulse.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

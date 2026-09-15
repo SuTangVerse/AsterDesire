@@ -1,0 +1,19 @@
+{
+  "timezone": "UTC",
+  "seed": "replace-with-a-stable-non-secret-label",
+  "heartbeat": {
+    "min_interval_seconds": 2100,
+    "max_interval_seconds": 9900,
+    "daily_limit": 5,
+    "quiet_start_hour": 1,
+    "quiet_end_hour": 8
+  },
+  "desire": {
+    "libido_threshold": 0.70,
+    "solo_idle_seconds": 3600,
+    "solo_fatigue_ceiling": 0.70,
+    "solo_daily_limit": 2,
+    "solo_modes": ["fantasy", "body", "mixed"],
+    "thought_threshold": 0.64
+  }
+}
