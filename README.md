@@ -99,7 +99,8 @@ print(result)
 - [功能与调参说明](docs/CONFIGURATION.md)
 - [隐私与脱敏说明](docs/PRIVACY.md)
 - [接入与部署建议](docs/INTEGRATION.md)
+- [设计来源、致谢与许可证边界](ACKNOWLEDGEMENTS.md)
 
 ## 开源许可
 
-MIT License。可以用于个人 Agent、机器人、研究原型和商业项目；保留许可证即可。
+本仓库的原创代码采用 MIT License，可以用于个人 Agent、机器人、研究原型和商业项目；保留许可证即可。外部设计参考并未因此被重新许可，具体出处与边界见[致谢文件](ACKNOWLEDGEMENTS.md)。
